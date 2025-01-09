@@ -1,0 +1,49 @@
+################################################
+# ITK-SnAP Label Description File
+# File format: 
+# IDX   -R-  -G-  -B-  -A--  VIS MSH  LABEL
+# Fields: 
+#    IDX:   Zero-based index 
+#    -R-:   Red color component (0..255)
+#    -G-:   Green color component (0..255)
+#    -B-:   Blue color component (0..255)
+#    -A-:   Label transparency (0.00 .. 1.00)
+#    VIS:   Label visibility (0 or 1)
+#    IDX:   Label mesh visibility (0 or 1)
+#  LABEL:   Label description 
+################################################
+    0     0    0    0        0  0  0    "Clear Label"
+    1   255    0    0        1  1  1    "Left Pu"
+    2   255  182  193        1  1  1    "Right Pu"
+    3     0  255    0        1  1  1    "Left Ca"
+    4    60  179  113        1  1  1    "Right Ca"
+    5     0    0  255        1  1  1    "Left NAC"
+    6   255  235  205        1  1  1    "Right NAC"
+    7     0    0  128     0.95  1  1    "Left VeP"
+    8   139   69   19     0.97  1  1    "Right VeP"
+    9     0  255  255        1  1  1    "Left GPe"
+   10   218  165   32        1  1  1    "Right GPe"
+   11   255    0  255        1  1  1    "Left GPi"
+   12     0  128  128        1  1  1    "Right GPi"
+   13   205  133   63        1  1  1    "Left SNr"
+   14   255  218  185        1  1  1    "Right SNr"
+   15   255  239  213        1  1  1    "Left SNc"
+   16   188  143  143        1  1  1    "Right SNc"
+   17     0    0  205        1  1  1    "Left RN"
+   18   255  105  180        1  1  1    "Right RN"
+   19   106   90  205        1  1  1    "Left STN"
+   20     0  100    0        1  1  1    "Right STN"
+   21     0  139  139        1  1  1    "Left HN"
+   22   124  252    0        1  1  1    "Right HN"
+   23   165   42   42        1  1  1    "Left TH.AN"
+   24   240  255  240        1  1  1    "Right TH.AN"
+   25   255  250  250        1  1  1    "Left TH.MN"
+   26   245  222  179        1  1  1    "Right TH.MN"
+   27   147  112  219        1  1  1    "Left TH.IM"
+   28   184  134   11        1  1  1    "Right TH.IM"
+   29   218  112  214        1  1  1    "Left TH.VN"
+   30    32  178  170        1  1  1    "Right TH.VN"
+   31    75    0  130        1  1  1    "Left TH.P"
+   32   255   20  147        1  1  1    "Right TH.P"
+   33    25   25  112        1  1  1    "Left DN"
+   34   112  128  144        1  1  1    "Right DN"
